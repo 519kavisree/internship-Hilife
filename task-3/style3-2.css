@@ -1,0 +1,15 @@
+.demo{
+    background-image: url("./image/Nature_HD_pictures.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+height: 500px;
+width: 500px;
+}
+.demo2{
+    background-image: url("./ttt.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 500px;
+    
+}

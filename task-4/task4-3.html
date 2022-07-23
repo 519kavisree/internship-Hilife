@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+  background-color: aqua;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 30px;
+  text-align: center;
+}
+
+.flex-item-left {
+  background-color:blue;
+  padding: 10px;
+  flex: 50%;
+  border-style:double; 
+}
+
+.flex-item-right {
+  background-color:yellow;
+  padding: 10px;
+  flex: 50%;
+  border-style: double;
+}
+
+@media (max-width: 800px) {
+  .flex-item-right, .flex-item-left {
+    flex: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<h1>Responsive Flexbox</h1>
+
+<p>Consumers were already shifting spending from goods to services as the economy recovered
+     from the pandemic's impact, but the intensified pressure from inflation has prompted a sharper shift 
+     from discretionary items like electronics to necessities</p>
+<p><b>singular in construction : a branch of physics that deals with the emission, behavior, and effects 
+    of electrons (as in electron tubes and transistors) and with electronic devices 
+</b></p>
+
+<div class="flex-container">
+  <div class="flex-item-left">a</div>
+  <div class="flex-item-right">b</div>
+  <div class="flex-item-left">c</div>
+  <div class="flex-item-right">d</div>
+  <div class="flex-item-left">e</div>
+  <div class="flex-item-right">f</div>
+  <div class="flex-item-left">g</div>
+  <div class="flex-item-right">h</div>
+  <div class="flex-item-left">i</div>
+</div>
+
+</body>
+</html>
+
