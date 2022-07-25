@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>javascript</title>
+</head>
+<body>
+    <script>
+        var prime=prompt("enter a prime number");
+        alert("HELLO EVERYONE")
+
+        function isPrime(num) {
+            if(num<=1)return false;
+            if(num==2)return true;
+        for (let i = 2;i <= num/2;i++){
+        if (num % i === 0){
+        return false; 
+        }
+       }
+        return true;
+        }
+      console.log(isPrime(22));
+      console.log(isPrime(31));
+      console.log(isPrime(54));
+      console.log(isPrime(67));
+      console.log(isprime(95));
+    </script> 
+</body>
+</html>
